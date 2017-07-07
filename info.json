@@ -1,7 +1,7 @@
 {
     "AUTHOR" : "TheLazyHatGuy",
-    "INSTALL_MSG" : "A install message that appears as soon as the end user does !cog repo add",
-    "NAME" : "ShitPost Cogs",
-    "SHORT" : "A short description, appears on !cog list",
-    "DESCRIPTION" : "A longer description, appears on !cog info repo"
+    "INSTALL_MSG" : "This repo contains various cogs from my bot ShitPost.EXE",
+    "NAME" : "ShitPostCogs",
+    "SHORT" : "This repo contains various cogs from my bot ShitPost.EXE",
+    "DESCRIPTION" : "This repo contains various cogs from my bot ShitPost.EXE. You can contact me via email TheLazyHatGut@gmail.com or on Discord TheLazyHatGuy#9340 <@117416885871443974>"
 }
