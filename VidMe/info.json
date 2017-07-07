@@ -1,0 +1,10 @@
+{
+    "AUTHOR" : "TheLazyHatGuy",
+    "INSTALL_MSG" : "Replace key and secret in VidMe.py",
+    "NAME" : "VidMe",
+    "SHORT" : "A small cog powered by VidMe",
+    "DESCRIPTION" : "A small cog powered by VidMe. Use [p]VMCheck to make sure auth is working",
+    "TAGS" : ["API", "VidMe", "video"],
+    "REQUIREMENTS" : ["json", "requests"],
+    "HIDDEN" : false
+}
