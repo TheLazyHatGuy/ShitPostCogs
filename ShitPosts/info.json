@@ -1,0 +1,9 @@
+{
+    "AUTHOR" : "TheLazyHatGuy",
+    "INSTALL_MSG" : "This is a cog with a handfull of shitposts. It also makes the repo kind of big because it contains the entire Bee Movie script split into images. Have Fun :)",
+    "NAME" : "ShitPosts",
+    "SHORT" : "A collection of shit post commands",
+    "DESCRIPTION" : "A collection of shit post commands. Use [p]help ShitPosts to see what is available",
+    "TAGS" : ["shitpost", "memes", "BeeMovie"],
+    "HIDDEN" : false
+}

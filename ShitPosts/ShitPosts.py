@@ -32,7 +32,7 @@ class ShitPosts():
 
     @commands.command()
     async def bee(self, part: int):
-        """Prints bee movie script. Requires script part number e.g ?bee 1"""
+        """[Old][Unfinished]Prints bee movie script. Requires script part number e.g [p]bee [1-2]"""
         color = ''.join([choice('0123456789ABCDEF') for x in range(6)])
         color = int(color, 16)
         print(part)
@@ -47,6 +47,15 @@ class ShitPosts():
                                       title="Ha lul")
 
         await self.bot.say(embed=BeeScript)
+
+    @commands.command(pass_context=True)
+    async def beescript(self, ctx, part:int):
+        """Sends an images from The Bee Movie script. Requires page no. e.g [p]beescript[1-132]"""
+        await self.bot.send_typing(ctx.message.channel)
+        ToSend = "data/ShitPosts/file-page"+str(part)+".jpg"
+        print(ToSend)
+        print(str(ToSend))
+        await self.bot.send_file(tts=False, fp=str(ToSend), destination=ctx.message.channel)
 
 
 def setup(bot):
