@@ -24,12 +24,6 @@ class ShitPosts():
         await self.bot.say(embed=toembed)
 
     @commands.command()
-    async def repeat(self, times: int, content='repeating...'):
-        """Repeats a message multiple times."""
-        for i in range(times):
-            await self.bot.say(content)
-
-    @commands.command()
     async def bee(self, part: int):
         """[Old][Unfinished]Prints bee movie script. Requires script part number e.g [p]bee [1-2]"""
         print(part)
